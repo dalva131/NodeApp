@@ -1,18 +1,21 @@
 {
   "name": "swe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node app to test CI/CD Pipeline",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
   },
   "author": "Gustavo Gonzalez",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
+    "express": "^4.16.4",
     "jest": "^24.7.1"
   }
 }
